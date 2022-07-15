@@ -172,10 +172,6 @@ def historia(screen,boton1):
     if info.boton_en_pantalla_imagen(screen,boton1,history,"NEXT",Font,890,590,312,79,(0,0,0)):
         return(1)
 
-def victoria(screen):
-    victory = pygame.image.load("pantalla de victoria.png")
-    pygame.Surface.blit(screen, victory, (0,0))
-
 def derrota(screen, boton2):
     perdiste= pygame.image.load("Perdiste.png") 
     pygame.Surface.blit(screen, perdiste, (0,0) )

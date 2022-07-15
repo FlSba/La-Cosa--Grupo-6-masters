@@ -129,7 +129,12 @@ def main():
                 Juego=False
                 Inicio=True
                 Inicio_Juego=True
-
+                if victoria:
+                    num = victoria(screen, boton2)
+                    if num == 1:
+                        corriendo = False
+                        victoria = True
+                    num = 0
 
             
 
